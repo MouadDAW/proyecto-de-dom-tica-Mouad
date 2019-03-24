@@ -9,10 +9,10 @@ import java.time.LocalDate;
 
 /**
  *
- * @author Sara
+ * @author Mouad
  */
 public class Centralita {
-    
+
     private String id;
     private LocalDate fech_ini;
     private Reloj reloj;
@@ -23,7 +23,7 @@ public class Centralita {
     private Usuario user;
 
     //Contructor parametrizado
-    public Centralita(String identificador, LocalDate fech_ini, Reloj reloj, Usuario usuario,Garaje garaje, Salon salon,Dormitorio dormitorio) {
+    public Centralita(String identificador, LocalDate fech_ini, Reloj reloj, Usuario usuario, Garaje garaje, Salon salon, Dormitorio dormitorio) {
         this.id = identificador;
         this.fech_ini = fech_ini;
         this.reloj = reloj;

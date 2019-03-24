@@ -7,7 +7,7 @@ package domotica;
 
 /**
  *
- * @author Sara
+ * @author Mouad
  */
 public class Salon {
     

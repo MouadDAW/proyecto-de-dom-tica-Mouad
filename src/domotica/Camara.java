@@ -10,7 +10,7 @@ package domotica;
  * @author Mouad
  */
 public class Camara {
-    
+
     private boolean estado;
     private String ip;
 
@@ -56,5 +56,3 @@ public class Camara {
     }
 
 }
-    
-

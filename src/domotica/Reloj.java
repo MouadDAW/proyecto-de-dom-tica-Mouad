@@ -10,7 +10,7 @@ import java.time.LocalTime;
 
 /**
  *
- * @author Sara
+ * @author Mouad
  */
 public class Reloj {
 

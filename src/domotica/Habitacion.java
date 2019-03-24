@@ -7,8 +7,45 @@ package domotica;
 
 /**
  *
- * @author Sara
+ * @author Mouad
  */
-public class Habitacion {
-    
+public class Habitacion extends Estancia {
+
+    private Orientacion orientacion;
+    private Puerta puerta;
+    private Luz luz;
+    private Persiana persianas;
+
+    public Luz getLuz() {
+        return luz;
+    }
+
+    public void setLuz(Luz luz) {
+        this.luz = luz;
+    }
+
+    public Orientacion getOrientacion() {
+        return orientacion;
+    }
+
+    public void setOrientacion(Orientacion orientacion) {
+        this.orientacion = orientacion;
+    }
+
+    public Puerta getPuerta() {
+        return puerta;
+    }
+
+    public void setPuerta(Puerta puerta) {
+        this.puerta = puerta;
+    }
+
+    public Persiana getPersianas() {
+        return persianas;
+    }
+
+    public void setPersianas(Persiana persianas) {
+        this.persianas = persianas;
+    }
+
 }
