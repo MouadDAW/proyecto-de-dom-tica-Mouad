@@ -11,4 +11,6 @@ package domotica;
  */
 public enum Comando {
 
+    SUBIR_PUERTA /** 1 Este método sube la puerta*/
+    
 }
