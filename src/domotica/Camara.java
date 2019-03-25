@@ -39,20 +39,9 @@ public class Camara {
         this.ip = ip;
     }
 
-    public void encenderCamara() {
-        if (estado == false) {
-            this.estado = true;
-        } else {
-            System.out.println("La Cámara encendida");
-        }
-    }
-
-    public void apagarCamara() {
-        if (this.estado == true) {
-            this.estado = false;
-        } else {
-            System.out.println("La Cámara apagada");
-        }
+    @Override
+    public String toString() {
+        return "Camara{" + "estado=" + estado + ", ip=" + ip + '}';
     }
 
 }
