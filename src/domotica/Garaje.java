@@ -15,7 +15,7 @@ public class Garaje extends Estancia {
     private Puerta puerta;
 
     public Garaje(int capacidadVehiculos, Puerta puerta, int m2) {
-
+        super(m2);
         this.capacidadVehiculos = capacidadVehiculos;
         this.puerta = puerta;
     }
