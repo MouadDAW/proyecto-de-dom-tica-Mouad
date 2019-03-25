@@ -33,6 +33,10 @@ public class Centralita {
         this.garaje = garaje;
     }
 
+    Centralita(String centralita_1, Garaje g1, Salon s1, Dormitorio d1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     //Getters y Setters
     public String getIdentificador() {
         return id;

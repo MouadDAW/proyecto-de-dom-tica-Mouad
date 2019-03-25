@@ -21,6 +21,6 @@ public class Domo {
 
         Usuario user = new Usuario("usuario", "usuario");
 
-        Centralita centralita = new Centralita("Centralita 1", g1, s1, d1, user);
+        Centralita centralita = new Centralita("Centralita 1", g1, s1, d1);
     }
 }

@@ -57,6 +57,63 @@ public class Vista {
         System.out.println("23.Subir la puerta del garaje");
         System.out.println("24.Cerrar la puerta del garaje");
 
+    
+    int comando = teclado.nextInt();
+
+        switch (comando) {
+            case 1:
+                return Comando.ENCENDER_LUCES_GENERALES;
+            case 2:
+                return Comando.ENCENDER_LUCES_SALON;
+            case 3:
+                return Comando.ENCENDER_LUCES_DORMOTORIO;
+            case 4:
+                return Comando.APAGAR_LUCES_GENERALES;
+            case 5:
+                return Comando.APAGAR_LUCES_SALON;
+            case 6:
+                return Comando.APAGAR_LUCES_DORMOTORIO;
+            case 7:
+                return Comando.ENCENDER_CAMARAS;
+            case 8:
+                return Comando.APAGAR_CAMARAS;
+            case 9:
+                return Comando.VER_CAMARAS;
+            case 10:
+                return Comando.SUBIR_PERSIANAS_GENERALES;
+            case 11:
+                return Comando.SUBIR_PERSIANAS_SALON;
+            case 12:
+                return Comando.SUBIR_PERSIANAS_DORMOTORIO;
+            case 13:
+                return Comando.PERSIANA_A_LA_MITAD_GENERALES;
+            case 14:
+                return Comando.PERSIANA_A_LA_MITAD_SALON;
+            case 15:
+                return Comando.PERSIANA_A_LA_MITAD_DORMOTORIO;
+            case 16:
+                return Comando.CERRAR_PERSIANAS_GENERALES;
+            case 17:
+                return Comando.CERRAR_PERSIANAS_SALON;
+            case 18:
+                return Comando.CERRAR_PERSIANAS_DORMOTORIO;
+            case 19:
+                return Comando.CONSULTA_HORA;
+            case 20:
+                return Comando.MODIFICAR_HORA; 
+            case 21:
+                return Comando.CONSULTA_FECHA;
+            case 22:
+                return Comando.MODIFICAR_FECHA;
+            case 23:
+                return Comando.SUBIR_PUERTA_GARAJE;
+            case 24:
+                return Comando.CERRAR_PUERTA_GARAJE;
+          
+
+        }
+        return null;
+
     }
 
 }
