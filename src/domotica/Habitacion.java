@@ -16,6 +16,15 @@ public class Habitacion extends Estancia {
     private Luz luz;
     private Persiana persianas;
 
+    public Habitacion(Orientacion orientacion, Puerta puerta, Luz luz, Persiana persianas, int m2) {
+        super(m2);
+        this.orientacion = orientacion;
+        this.puerta = puerta;
+        this.luz = luz;
+        this.persianas = persianas;
+    }
+    
+
     public Luz getLuz() {
         return luz;
     }
