@@ -11,6 +11,7 @@ package domotica;
  */
 public enum Comando {
 
-    SUBIR_PUERTA /** 1 Este método sube la puerta*/
+    ABRIR_PUERTA(1, "Abrir puerta"),/** 1 Este método abrir la puerta*/
+    CERRAR_PUERTA(2, "Cerrar puerta"); /** 2 Este método cerrar la puerta*/
     
 }
