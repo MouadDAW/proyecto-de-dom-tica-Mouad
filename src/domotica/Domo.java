@@ -10,9 +10,17 @@ package domotica;
  * @author mouad
  */
 public class Domo {
-    
+
     public static void main(String[] args) {
-        
-        // Comando orden = Vista.menu();
+
+        Garaje g1 = new Garaje();
+
+        Salon s1 = new Salon();
+
+        Dormitorio d1 = new Dormitorio();
+
+        Usuario user = new Usuario("usuario", "usuario");
+
+        Centralita centralita = new Centralita("Centralita 1", g1, s1, d1, user);
     }
 }
