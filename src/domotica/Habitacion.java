@@ -57,4 +57,9 @@ public class Habitacion extends Estancia {
         this.persianas = persianas;
     }
 
+    @Override
+    public String toString() {
+        return "Habitacion{" + "orientacion=" + orientacion + ", puerta=" + puerta + ", luz=" + luz + ", persianas=" + persianas + '}';
+    }
+
 }
