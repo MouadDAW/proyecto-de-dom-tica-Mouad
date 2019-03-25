@@ -39,20 +39,9 @@ public class Luz {
         this.consumo = consumo;
     }
 
-    public void encenderLuz() {
-        if (estado == false) {
-            this.estado = true;
-        } else {
-            System.out.println("El luz encendido");
-        }
-    }
-
-    public void apagarLuz() {
-        if (estado == true) {
-            this.estado = false;
-        } else {
-            System.out.println("El luz apagado");
-        }
+    @Override
+    public String toString() {
+        return "Luz{" + "estado=" + estado + ", consumo=" + consumo + '}';
     }
 
 }
